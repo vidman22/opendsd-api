@@ -6,6 +6,7 @@ import (
 	"io"
 )
 
+// Project will be refactored
 type Project struct {
 	Customers []struct {
 		ProjectID  int    `json:"ProjectId"`
