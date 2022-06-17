@@ -26,6 +26,7 @@ type Client struct {
 	HTTPClient *http.Client
 }
 
+// NewClient is not used internally
 func NewClient() *Client {
 	return &Client{
 		APIRoot: APIRoot,

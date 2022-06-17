@@ -1,1 +1,5 @@
 .DS_Store
+.idea/modules.xml
+.idea/opendsd-api.iml
+.idea/*
+*.xml
